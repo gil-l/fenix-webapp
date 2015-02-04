@@ -19,7 +19,7 @@
 	<properties>
 		<version.ch.qos.logback.logback.classic>1.0.12</version.ch.qos.logback.logback.classic>
 
-		<version.org.fenixedu.academic>4.0.9</version.org.fenixedu.academic>
+		<version.org.fenixedu.academic>4.1.0-SNAPSHOT</version.org.fenixedu.academic>
 		<version.org.fenixedu.academic.thesis>2.1.1</version.org.fenixedu.academic.thesis>
 		<version.org.fenixedu.ashes.theme>1.1.2</version.org.fenixedu.ashes.theme>
 		<version.org.fenixedu.bennu>3.4.1</version.org.fenixedu.bennu>
@@ -34,7 +34,7 @@
 
 		<version.pt.ist.fenixedu.delegates>4.1.2</version.pt.ist.fenixedu.delegates>
 		<version.pt.ist.fenixedu.teacher-service>4.1.0</version.pt.ist.fenixedu.teacher-service>
-		<version.pt.ist.fenixedu.reports>1.0.1</version.pt.ist.fenixedu.reports>
+		<version.pt.ist.fenixedu.reports>1.0.0-SNAPSHOT</version.pt.ist.fenixedu.reports>
 		<version.pt.ist.fenixedu.libraryspace>4.0.0</version.pt.ist.fenixedu.libraryspace>
 		<version.pt.ist.fenixedu.onlinetests>4.0.0</version.pt.ist.fenixedu.onlinetests>
 		<version.pt.ist.fenixedu.pre-bolonha>4.0.0</version.pt.ist.fenixedu.pre-bolonha>
@@ -175,8 +175,8 @@
 			<version>${version.pt.ist.fenixedu.teacher-service}</version>
 		</dependency>
 		<dependency>
-			<groupId>pt.ist</groupId>
-			<artifactId>fenixedu-ist-reports</artifactId>
+			<groupId>org.fenixedu</groupId>
+			<artifactId>fenixedu-oddjet-reports</artifactId>
 			<version>${version.pt.ist.fenixedu.reports}</version>
 		</dependency>
 		<dependency>
